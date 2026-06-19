@@ -24,9 +24,6 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-// Teste route
-app.MapGet("/hello", () => "Hello, World!");
-
 app.MapControllers();
 
 app.Run();
